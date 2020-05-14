@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--head starts here-->
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="Project">
+
+  <title>Pixel Art </title>
+
+  <link href="css/styles.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<!--head ends here-->
+
+<!--body starts here-->
+<body>
+  <h1>Lab: Pixel Art </h1>
+
+  <h2>Choose Grid Size</h2>
+<!-- form starts here-->
+  <form id="sizePicker">
+    Grid Height:
+    <input type="number" id="height" name="height" min="1" value="1"> Grid Width:
+    <input type="number" id="width" name="width" min="1" value="1">
+    <input type="submit">
+  </form>
+<!-- form tag ends-->
+  <h2>Color Picker</h2>
+
+  <input type="color" id="colorPicker">
+
+  <h2>Design Canvas</h2>
+
+  <table id="pixel_canvas"></table>
+<!--script tag-->
+  <script src="js/app.js"></script>
+</body>
+<!-- body ends here-->
+</html>
